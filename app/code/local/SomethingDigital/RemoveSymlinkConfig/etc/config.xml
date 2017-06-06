@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <SomethingDigital_RemoveSymlinkConfig>
+            <version>0.1.0</version>
+        </SomethingDigital_RemoveSymlinkConfig>
+    </modules>
+
+    <global>
+        <resources>
+            <sd_removesymlinkconfig_setup>
+                <setup>
+                    <module>SomethingDigital_RemoveSymlinkConfig</module>
+                    <class>Mage_Core_Model_Resource_Setup</class>
+                </setup>
+            </sd_removesymlinkconfig_setup>
+        </resources>
+    </global>
+</config>
